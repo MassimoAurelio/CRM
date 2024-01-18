@@ -13,6 +13,13 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    frontSize: {
+      xs: "1.05rem",
+      sm: "1.2rem",
+      base: "1.38rem",
+      lg: "1.46rem",
+      xl: "1.6rem",
+    },
     extend: {
       transitionDuration: {
         DEFAULT: "333ms",
@@ -21,9 +28,9 @@ module.exports = {
         DEFAULT: "ease-in-out",
       },
       colors: {
-        border: "var(--border)",
-        input: "var(--input)",
-        ring: "var(--ring)",
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
         background: "var(--background)",
         foreground: "hsl(var(--foreground))",
         primary: {
