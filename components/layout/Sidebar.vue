@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <aside class="px-5 py-8 bg-sidebar h-full relative w-full">
+    <aside class="px-5 py-8 bg-card h-full relative w-full">
         <NuxtLink to="/" class="mb-10 block">
             <NuxtImg src="/OpenAI.dark.svg" width="100px" class="mx-auto" />
         </NuxtLink>
