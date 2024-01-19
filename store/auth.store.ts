@@ -15,7 +15,7 @@ const defaultValue: { user: IAuthStore } = {
 export const useAuthStore = defineStore("auth", {
   state: () => defaultValue,
   getters: {
-    isAuth: (state) => state.user.status,
+    isAuth: state => state.user.status,
   },
   actions: {
     clear() {
